@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "intervention/image": "1.5.2",
+        "intervention/image": "2.x",
         "illuminate/support": "4.2.x"
     },
     "autoload": {
@@ -18,7 +18,7 @@
             "src/controllers"
         ],
         "psr-0": {
-            "Davzie\\LaravelBootstrap": "src/"
+            "r0ckf3l3r\\LaravelBootstrap": "src/"
         }
     },
     "minimum-stability": "dev"
