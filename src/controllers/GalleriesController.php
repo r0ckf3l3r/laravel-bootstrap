@@ -1,5 +1,5 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
-use Davzie\LaravelBootstrap\Galleries\GalleriesInterface;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
+use r0ckf3l3r\LaravelBootstrap\Galleries\GalleriesInterface;
 
 class GalleriesController extends ObjectBaseController {
 

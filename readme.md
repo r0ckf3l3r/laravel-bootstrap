@@ -11,25 +11,25 @@ It uses Redactor JS for content editing and provides a really simple way to prot
 ## Composer Require
 Nice and simple
 
-    "davzie/laravel-bootstrap": "1.*"
+    "r0ckf3l3r/laravel-bootstrap": "1.*"
 
 ### Linking The Service Provider To Your Installation
 Add this string to your array of providers in app/config/app.php
 
-    Davzie\LaravelBootstrap\LaravelBootstrapServiceProvider
+    r0ckf3l3r\LaravelBootstrap\LaravelBootstrapServiceProvider
 
 ### Publishing The Configuration
 Publish the configurations for this package in order to change them to your liking:
 
-    php artisan config:publish davzie/laravel-bootstrap
+    php artisan config:publish r0ckf3l3r/laravel-bootstrap
 
 ### Publishing The Assets
 You need assets bro!
 
-    php artisan asset:publish davzie/laravel-bootstrap
+    php artisan asset:publish r0ckf3l3r/laravel-bootstrap
 
 ### Migrating and Seeding The Database
 Seed the database, this pretty much just seeds an example user and settings. Migration is pretty simple, ensure your database config is setup and run this:
 
-    php artisan migrate --package="davzie/laravel-bootstrap"
-    php artisan db:seed --class="Davzie\LaravelBootstrap\Seeds\DatabaseSeeder"
+    php artisan migrate --package="r0ckf3l3r/laravel-bootstrap"
+    php artisan db:seed --class="r0ckf3l3r\LaravelBootstrap\Seeds\DatabaseSeeder"

@@ -1,5 +1,5 @@
 <?php
-namespace Davzie\LaravelBootstrap\Controllers;
+namespace r0ckf3l3r\LaravelBootstrap\Controllers;
 use Illuminate\Routing\Controller;
 use View, Config;
 
@@ -27,7 +27,7 @@ abstract class BaseController extends Controller{
         // Setup composed views and the variables that they require
         $this->beforeFilter( 'adminFilter' , array('except' => $this->whitelist) );
         $composed_views = array( 'laravel-bootstrap::*' );
-        View::composer($composed_views, 'Davzie\LaravelBootstrap\Composers\Page');
+        View::composer($composed_views, 'r0ckf3l3r\LaravelBootstrap\Composers\Page');
     }
 
 }

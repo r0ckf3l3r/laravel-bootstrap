@@ -1,36 +1,36 @@
 <?php
 
 // The Posts Bindings
-App::bind('Davzie\LaravelBootstrap\Posts\PostsInterface', function(){
-    return new Davzie\LaravelBootstrap\Posts\PostsRepository( new Davzie\LaravelBootstrap\Posts\Posts );
+App::bind('r0ckf3l3r\LaravelBootstrap\Posts\PostsInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Posts\PostsRepository( new r0ckf3l3r\LaravelBootstrap\Posts\Posts );
 });
 
 // The Users Bindings
-App::bind('Davzie\LaravelBootstrap\Accounts\UserInterface', function(){
-    return new Davzie\LaravelBootstrap\Accounts\UserRepository( new Davzie\LaravelBootstrap\Accounts\User );
+App::bind('r0ckf3l3r\LaravelBootstrap\Accounts\UserInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Accounts\UserRepository( new r0ckf3l3r\LaravelBootstrap\Accounts\User );
 });
 
 // The Settings Bindings
-App::bind('Davzie\LaravelBootstrap\Settings\SettingsInterface', function(){
-    return new Davzie\LaravelBootstrap\Settings\SettingsRepository( new Davzie\LaravelBootstrap\Settings\Settings );
+App::bind('r0ckf3l3r\LaravelBootstrap\Settings\SettingsInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Settings\SettingsRepository( new r0ckf3l3r\LaravelBootstrap\Settings\Settings );
 });
 
 // The Blocks Bindings
-App::bind('Davzie\LaravelBootstrap\Blocks\BlocksInterface', function(){
-    return new Davzie\LaravelBootstrap\Blocks\BlocksRepository( new Davzie\LaravelBootstrap\Blocks\Blocks );
+App::bind('r0ckf3l3r\LaravelBootstrap\Blocks\BlocksInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Blocks\BlocksRepository( new r0ckf3l3r\LaravelBootstrap\Blocks\Blocks );
 });
 
 // The Tags Bindings
-App::bind('Davzie\LaravelBootstrap\Tags\TagsInterface', function(){
-    return new Davzie\LaravelBootstrap\Tags\TagsRepository( new Davzie\LaravelBootstrap\Tags\Tags );
+App::bind('r0ckf3l3r\LaravelBootstrap\Tags\TagsInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Tags\TagsRepository( new r0ckf3l3r\LaravelBootstrap\Tags\Tags );
 });
 
 // The Uploads Bindings
-App::bind('Davzie\LaravelBootstrap\Uploads\UploadsInterface', function(){
-    return new Davzie\LaravelBootstrap\Uploads\UploadsRepository( new Davzie\LaravelBootstrap\Uploads\Uploads );
+App::bind('r0ckf3l3r\LaravelBootstrap\Uploads\UploadsInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Uploads\UploadsRepository( new r0ckf3l3r\LaravelBootstrap\Uploads\Uploads );
 });
 
 // The Galleries Bindings
-App::bind('Davzie\LaravelBootstrap\Galleries\GalleriesInterface', function(){
-    return new Davzie\LaravelBootstrap\Galleries\GalleriesRepository( new Davzie\LaravelBootstrap\Galleries\Galleries );
+App::bind('r0ckf3l3r\LaravelBootstrap\Galleries\GalleriesInterface', function(){
+    return new r0ckf3l3r\LaravelBootstrap\Galleries\GalleriesRepository( new r0ckf3l3r\LaravelBootstrap\Galleries\Galleries );
 });

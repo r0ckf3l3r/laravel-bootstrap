@@ -1,6 +1,6 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
 use Illuminate\Support\MessageBag;
-use Davzie\LaravelBootstrap\Validators\Login;
+use r0ckf3l3r\LaravelBootstrap\Validators\Login;
 use View, Auth, Redirect, Validator, Session, Input;
 
 class DashController extends BaseController {

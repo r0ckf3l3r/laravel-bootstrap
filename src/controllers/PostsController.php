@@ -1,5 +1,5 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
-use Davzie\LaravelBootstrap\Posts\PostsInterface;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
+use r0ckf3l3r\LaravelBootstrap\Posts\PostsInterface;
 use Input, Redirect, Str;
 use Illuminate\Support\MessageBag;
 class PostsController extends ObjectBaseController {

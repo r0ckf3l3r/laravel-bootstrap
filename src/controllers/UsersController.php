@@ -1,5 +1,5 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
-use Davzie\LaravelBootstrap\Accounts\UserInterface;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
+use r0ckf3l3r\LaravelBootstrap\Accounts\UserInterface;
 use Illuminate\Support\MessageBag;
 use Input, Redirect;
 

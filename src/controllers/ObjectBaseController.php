@@ -1,7 +1,7 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
 use Illuminate\Support\MessageBag;
 use View, Redirect, Input, App, ReflectionClass, Request, Config, Response;
-use Davzie\LaravelBootstrap\Core\Exceptions\EntityNotFoundException;
+use r0ckf3l3r\LaravelBootstrap\Core\Exceptions\EntityNotFoundException;
 
 abstract class ObjectBaseController extends BaseController {
 
@@ -76,7 +76,7 @@ abstract class ObjectBaseController extends BaseController {
     public function __construct()
     {
         parent::__construct();
-        $this->uploads_model = App::make('Davzie\LaravelBootstrap\Uploads\UploadsInterface');
+        $this->uploads_model = App::make('r0ckf3l3r\LaravelBootstrap\Uploads\UploadsInterface');
 
         $this->setHandyUrls();
         $this->shareHandyUrls();

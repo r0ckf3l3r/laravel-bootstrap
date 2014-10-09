@@ -10,10 +10,10 @@
 
         <!-- Bootstrap core CSS -->
         @section('css')
-            <link rel="stylesheet" href="{{ asset('packages/davzie/laravel-bootstrap/css/bootstrap.min.css') }}">
-            <link rel="stylesheet" href="{{ asset('packages/davzie/laravel-bootstrap/css/styles.css') }}">
-            <link rel="stylesheet" href="{{ asset('packages/davzie/laravel-bootstrap/css/jquery.tagsinput.min.css') }}">
-            <link rel="stylesheet" href="{{ asset('packages/davzie/laravel-bootstrap/css/redactor.css') }}">
+            <link rel="stylesheet" href="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/css/bootstrap.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/css/styles.css') }}">
+            <link rel="stylesheet" href="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/css/jquery.tagsinput.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/css/redactor.css') }}">
         @show
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -92,10 +92,10 @@
 
 
         @section('scripts')
-            <script src="{{ asset('packages/davzie/laravel-bootstrap/js/jquery.js') }}"></script>
-            <script src="{{ asset('packages/davzie/laravel-bootstrap/js/bootstrap.min.js') }}"></script>
-            <script src="{{ asset('packages/davzie/laravel-bootstrap/js/jquery.tagsinput.min.js') }}"></script>
-            <script src="{{ asset('packages/davzie/laravel-bootstrap/js/redactor.min.js') }}"></script>
+            <script src="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/js/jquery.js') }}"></script>
+            <script src="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/js/bootstrap.min.js') }}"></script>
+            <script src="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/js/jquery.tagsinput.min.js') }}"></script>
+            <script src="{{ asset('packages/r0ckf3l3r/laravel-bootstrap/js/redactor.min.js') }}"></script>
             <script>
                 $(document).ready(function(){
                     var taggables = $('input[name="tags"]');

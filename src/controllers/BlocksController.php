@@ -1,5 +1,5 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
-use Davzie\LaravelBootstrap\Blocks\BlocksInterface;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
+use r0ckf3l3r\LaravelBootstrap\Blocks\BlocksInterface;
 
 class BlocksController extends ObjectBaseController {
 

@@ -1,6 +1,6 @@
-<?php namespace Davzie\LaravelBootstrap\Controllers;
+<?php namespace r0ckf3l3r\LaravelBootstrap\Controllers;
 use Illuminate\Support\MessageBag;
-use Davzie\LaravelBootstrap\Settings\SettingsInterface;
+use r0ckf3l3r\LaravelBootstrap\Settings\SettingsInterface;
 use Input, Redirect;
 
 class SettingsController extends ObjectBaseController {
